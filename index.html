@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saito-w3school_The_Band_template</title>
+    <link rel="icon" href="/assets/thug_saito.ico" type="image/x-icon" />
+
+
+    <link rel="stylesheet" href="/style/section.css">
+    <link rel="stylesheet" href="/style/default.css">
+    <link rel="stylesheet" href="/style/mobile-responsive.css">
+    <link rel="stylesheet" href="/style/animation.css">
+    <style>
+        /*
+        PC: >= 1024px
+            @media (min-width: 1024px) {}
+
+
+        Tablet: >= 740px & < 1024px
+            @media (min-width: 740px) and (max-width: 1023px) {}
+
+
+        Mobile: < 740px
+            @media (max-width: 740px){}
+
+
+        */
+    </style>
+
+    <script src="https://kit.fontawesome.com/eb76371733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <ul class="nav flex" >
+                <a href="#" class="nav-items">HOME</a>
+                <a href="#band" class="nav-items">BAND</a>
+                <a href="#tour" class="nav-items">TOUR</a>
+                <a href="#contact" class="nav-items">CONTACT</a>
+                <!-- <a href="#footer" class="nav-items">MEDIA</a> -->
+                <div class="nav-more">
+
+                    <a class="nav-items sub-nav">MORE
+                        <i class="fas fa-caret-down"></i>
+    
+                    </a>
+
+                    <div class="nav-more-content">
+                        <a href="#" class="nav-more-items pad-X16-Y8">Merchandise</a>
+                        <a href="#" class="nav-more-items pad-X16-Y8">Extras</a>
+                        <a href="#footer" class="nav-more-items pad-X16-Y8">Media</a>
+                    </div>
+
+                </div>
+                
+                <div class="sub-bar">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+                <div class="search-section">
+                    <i class="fas fa-search"></i>
+                </div>
+            </ul>
+
+        </div>
+
+
+        <!-- NAV ↑ -->
+
+        <div class="container" id="home">
+
+            <div class="slider flex">
+
+                    <div class="losangeles">
+                        <img src="/assets/losangeles.jpg" alt="" style="width: 100%;display: block;">
+                        <div class="home-about pad-Y32">
+                            <h3 class="home-about-heading">Los Angeles</h3>
+                            <p  class="home-about-note mar-Y15">
+                                <b>We had the best time playing at Venice Beach!</b>
+                            </p>
+
+                        </div>
+                </div>
+
+                <div class="newyork">
+                    <img src="/assets/newyork.jpg" alt="" style="width: 100%;display: block;">
+                        <div class="home-about pad-Y32">
+                            <h3 class="home-about-heading">New York</h3>
+                            <p  class="home-about-note mar-Y15">
+                                <b>The atmosphere in New York is lorem ipsum.</b>
+                            </p>
+                                
+                        </div>
+                </div>
+
+                <div class="chicago">
+                    <img src="/assets/chicago.jpg" alt="" style="width: 100%;display: block;">
+                        <div class="home-about pad-Y32">
+                            <h3 class="home-about-heading">Chicago</h3>
+                            <p  class="home-about-note mar-Y15">
+                                <b>Thank you, Chicago - A night we won't forget.</b>
+                            </p>
+                                
+                        </div>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+        <div class="container" id="band" style="background-color:#fff">
+            <div class="content-section">
+                <h2 class="content-heading">THE BAND</h2>
+            <p class="content-about">
+                <i>We love music</i>
+            </p>    
+
+            <p class="paragraph">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <div class="flex pad-Y32">
+                <div class="member">
+                    <p class="member-name mar-Y15">
+                        saito
+                    </p>
+                    <img src="/assets/band_members/saito.png" alt="" class="member-img mar-Bot16">
+                </div>
+                <div class="member">
+                    <p class="member-name mar-Y15">
+                        sachii
+                    </p>
+                    <img src="/assets/band_members/sachii.png" alt="" class="member-img mar-Bot16">
+                </div>
+                <div class="member">
+                    <p class="member-name mar-Y15">
+                        thug saito
+                    </p>
+                    <img src="/assets/band_members/thug_saito.png" alt="" class="member-img mar-Bot16">
+                </div>
+            </div
+            >
+            </div>
+        </div>
+
+        <!-- HOME ↑ -->
+
+        <div class="container" id="tour" style="background-color:#000">
+            <div class="content-section">
+                <h2 class="content-heading">TOUR DATES</h2>
+                <p class="content-about">
+                    <i>Remember to book your tickets!</i>
+                </p>
+
+                <br>
+
+                <ul class="tour-schedule">
+                    <li class="schedule pad-X16-Y8">September<span>Sold out</span></li>
+                    <li class="schedule pad-X16-Y8">October<span>Sold out</span></li>
+                    <li class="schedule pad-X16-Y8">November<span class="tickets_left pad-X8">3</span></li>
+                </ul>
+
+                <div class="tour-date-detail flex pad-X8 pad-Y32">
+                    <div class="pad-XY8">
+                        <img src="/assets/tour/newyork.jpg" alt="" style="width:100%;display: block;" >
+                        <div class="tour-date-description">
+                            <p>
+                            <b>New York</b>
+                            <!-- city -->
+                        </p>
+
+                        <p>Fri 27 Nov 2016</p>
+                        <!-- date -->
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                            <!-- description -->
+                        </p>
+
+                        <button class="button-decoration mar-Bot16 pad-X16-Y8">Buy Tickets</button>
+
+                        </div>
+                    </div>
+                    <div class="pad-XY8">
+                        <img src="/assets/tour/paris.jpg" alt="" style="width:100%;display: block;" >
+                        <div class="tour-date-description">
+                            <p>
+                            <b>Paris</b>
+                            <!-- city -->
+                        </p>
+
+                        <p>Sat 28 Nov 2016</p>
+                        <!-- date -->
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                            <!-- description -->
+                        </p>
+
+                        <button class="button-decoration mar-Bot16 pad-X16-Y8 ">Buy Tickets</button>
+
+                        </div>
+                    </div>
+                    <div class="pad-XY8">
+                        <img src="/assets/tour/sanfran.jpg" alt="" style="width:100%;display: block;" >
+                        <div class="tour-date-description">
+                            <p>
+                            <b>San Francisco</b>
+                            <!-- city -->
+                        </p>
+
+                        <p>Sun 29 Nov 2016</p>
+                        <!-- date -->
+                        <p>
+                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                            <!-- description -->
+                        </p>
+
+                        <button class="button-decoration mar-Bot16 pad-X16-Y8">Buy Tickets</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TOUR ↑ -->
+
+        <div class="container" id="contact" style="background-color:#fff">
+            <div class="content-section">
+                <h2 class="content-heading">CONTACT</h2>
+                <p class="content-about">
+                    <i>Fan? Drop a note!</i>
+                </p>
+
+                <div class="pad-X32 pad-Y32 flex">
+                    <div class="contact-info mar-Bot16">
+                        <i class="fa fa-map-marker"></i>
+                        Chicago, US
+                        <br>
+
+                        <i class="fa fa-phone"></i>
+                        Phone: +00 151515
+ 
+                        <br>
+
+                        <i class="fa fa-envelope"></i>
+                        Email: mail@mail.com
+ 
+                        <br>
+
+                    </div>
+
+                    <div class="contact-fields">
+                        
+                        <div class="flex">
+                                <div>
+                                <input class="pad-XY8" type="text" placeholder="Name">
+                                </div>
+                                
+                                <div>
+                                <input class="pad-XY8" type="text" placeholder="Email">
+                                </div>
+                        </div>
+                    
+                        <input class="pad-XY8" type="text" placeholder="Message">
+
+                        <button class="button-decoration pad-X16-Y8">SEND</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTACT ↑ -->
+
+        <div class="map"></div>
+
+        <div id="footer">
+
+            <div class="content-section">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-snapchat"></i>
+                <i class="fa fa-pinterest-p"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-linkedin"></i>
+            <p class="copyright">
+                Powered by <a href="https://www.facebook.com/profile.php?id=100007789905989" class="fb-link">
+                    saito
+                </a>
+            </p>
+            </div>
+
+        </div>
+
+        <div class="modal-container display-none">
+            <div class="modal">
+                <div class="label pad-X16-Y8 pad-Y32">
+                    <h2><i class="fa fa-suitcase" style="margin-right: 16px;"></i>Tickets</h2>
+                    <i class="fas fa-times pad-X16-Y8"></i>
+                </div>
+                <div class="submit-field">
+                    <p class="mar-Y15">
+                        <i class="fa fa-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </p>
+                    <input class="pad-XY8" type="text" placeholder="How many?">
+                    <p class="mar-Y15">
+                        <i class="fa fa-user"></i>
+                        Send To
+                    </p>
+                    <input class="pad-XY8" type="text" placeholder="Enter email">
+                    <button>PAY<i class="fas fa-check"></i></button>
+                    <p class="mar-Y15">Need <a href="#">help?</a></p>
+                </div>
+            </div>
+        </div>
+        
+</body>
+
+<script src="/main.js"></script>
+
+</html>

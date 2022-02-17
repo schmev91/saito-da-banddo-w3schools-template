@@ -1,0 +1,210 @@
+#home{
+    margin-top: 46.5px;
+}
+.home-about {
+    width: auto !important;
+    padding: 0 16px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.home-about-heading {
+    margin: 10px 0;
+    text-shadow: 0 0 10px #ccc;
+}
+.home-about-note {
+    font-weight: bolder;
+    text-shadow: 0 0 10px #ccc ;
+
+}
+
+
+/*   ⇑⇑--------------------⇑⇑   -
+     ⇑⇑   -HOME SECTION-   ⇑⇑
+-    ⇑⇑--------------------⇑⇑  */
+
+.paragraph {
+    text-align: justify;
+}
+
+#band .flex.pad-Y32 div:nth-child(1) .member-name {
+    font-weight: bolder;
+    color: rgb(3, 32, 199);
+    text-shadow: 0 0 7px rgb(124, 124, 124);
+
+}
+#band .flex.pad-Y32 div:nth-child(2) .member-name {
+    font-weight: bolder;
+    color: rgb(103, 125, 252);
+    text-shadow: 0 0 7px rgb(124, 124, 124);
+}
+#band .flex.pad-Y32 div:nth-child(3) .member-name {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 7px rgb(124, 124, 124);
+}
+
+.member-img{
+    width: 60%;
+    border-radius: 15%;
+}
+
+/*   ⇑⇑--------------------⇑⇑   -
+     ⇑⇑   -BAND SECTION-   ⇑⇑
+-    ⇑⇑--------------------⇑⇑  */
+
+#tour {
+    color: #fff;
+}
+.tour-schedule {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+.schedule {
+    border: 1px #ccc solid;
+    text-align:left;
+    color: #757575;
+}
+.schedule span:not([class]){
+    padding: 0 8px;
+    margin-left: 16px;
+    color: #fff;
+    background-color: #f44336;
+}
+.tickets_left {
+    border-radius: 50%;
+    margin-right: 16px;
+    float: right;
+    color: #fff;
+    background-color: #000;
+}
+
+.tour-date-detail {
+    text-align:left;
+    margin: 0 -16px;
+}
+.tour-date-description {
+    padding: 0.15px 16px;
+    color: #000;
+    background-color: #fff;
+}
+.tour-date-description p {
+    margin: 15px 0;
+}
+.tour-date-description p:nth-child(2){
+    opacity: 0.6;
+}
+
+/*   ⇑⇑--------------------⇑⇑   -
+     ⇑⇑   -TOUR SECTION-   ⇑⇑
+-    ⇑⇑--------------------⇑⇑  */
+
+#contact input[placeholder="Message"] {
+    width: 100%;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+.contact-info i {
+    width: 30px;
+}
+
+.contact-fields {
+    flex: 1;
+}
+.contact-fields>div {
+    margin-bottom: 8px;
+}
+.contact-fields div div:nth-child(1){
+    padding-right: 8px;
+}
+.contact-fields div div:nth-child(2){
+    padding-left: 8px;
+}
+
+#contact input {
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    margin: 16px 0;
+    float: right;
+}
+
+
+
+/*   ⇑⇑--------------------⇑⇑   -
+     ⇑⇑   -CONTACT SECTION-   ⇑⇑
+-    ⇑⇑--------------------⇑⇑  */
+
+.map {  
+    background: url(/assets/map.jpg) top center  / cover no-repeat;
+    padding-top: 50%;
+}
+
+ 
+/*   ⇓⇓-----------⇓⇓  -
+     ⇓⇓   MODAL   ⇓⇓
+-    ⇓⇓-----------⇓⇓   */
+
+.modal-container {
+    z-index: 4;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.label {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #fff;
+    background-color: #009688;
+}
+.label h2 {
+    margin: 10px 0  ;
+    font-size: 30px;
+    font-weight: 400;
+}
+.label>i {
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.submit-field {
+    padding: 0.15px 16px;
+    background-color: #fff;
+}
+.submit-field input {
+    width: 100%;
+}
+.submit-field button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    margin: 16px 0;
+    background-color: #009688;
+}
+.submit-field p:last-child {
+    text-align: right;
+}
+.submit-field p:last-child a {
+    color: blue;
+    text-decoration: underline;
+}
+.submit-field p:last-child a:hover {
+    color: rgb(112, 150, 255);
+}

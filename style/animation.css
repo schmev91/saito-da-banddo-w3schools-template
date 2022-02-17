@@ -1,0 +1,89 @@
+.third {
+    order: 3;
+}
+.second-slide {
+    margin-left: -100% !important;
+    transition: 2s ease
+}
+.third-slide {
+    margin-left: -200% !important;
+    transition: 2s ease
+}
+.first-slide-view {
+    margin-left: 0 !important;
+}
+.second-slide-view {
+    margin-left: -100% !important;
+}
+
+
+/*  ⇓⇓------------------------⇓⇓
+    ⇓⇓  CONFIG FOR ANIMATION  ⇓⇓
+    ⇓⇓------------------------⇓⇓  */
+
+body,
+#home
+{
+    overflow-x: hidden;
+}
+
+
+.slider {
+    position: relative;
+    width: 300%;
+}
+.slider>div {
+    flex: 1;
+    position: relative;   
+}
+.ushiro {
+    display: block !important;
+    position: relative;
+    animation: ushiro 2s ease;
+}
+
+.mae {
+    position: relative;
+    animation: sugi 2s ease;
+}
+
+.display-block {
+    display: block !important;
+}
+.display-none {
+    display: none !important;
+}
+
+/*  ⇓⇓---------------⇓⇓
+    ⇓⇓     MODAL     ⇓⇓
+    ⇓⇓---------------⇓⇓ */
+
+@keyframes modal-hop-in {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes modal-hop-out {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+.modal {
+    width: 900px;
+    animation: modal-hop-in 0.6s ease;
+}
+.modal-container.hop-out .modal {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: 0.5s ease;
+}
