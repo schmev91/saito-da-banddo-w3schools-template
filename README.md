@@ -1,3 +1,3 @@
 ﻿# saito-da-banddo
 meromerorin
-https://maevii.github.io/saito-da-banddo-w3schools-template/
+https://schmev91.github.io/saito-da-banddo-w3schools-template/
